@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+:root {
+  font-family: 'Handlee', cursive;
+  line-height: 1.5;
+  font-weight: bolder;
+
+  color-scheme: light dark;
+  color: #0e1111;
+  background-color: #FFFAA0;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  user-select: none;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+p {
+  text-decoration: inherit;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 4em;
+  line-height: 1em;
+}
+
+.LargeButton{
+  padding: 0.8em 1.2em;
+}
+
+button {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: none;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button:disabled{
+  opacity: 40%;
+}
+
+button:hover {
+  border-color: #0e1111;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.Split{
+  width: 35%;
+}
